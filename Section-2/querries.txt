@@ -1,0 +1,7 @@
+select First_name, Last_name,  Seniority_level from Mentors
+select First_name, Last_name from Mentors where Office = ‘333’
+select First_name, Last_name from Mentors where Salary > 1000
+select First_name, Last_name,  Seniority_level from Mentors where Salary > 1000
+select First_name, Last_name from Mentors inner  where Department.name = “English & Life Skills” join Department on Mentors.Mentor_id = Departments.Departments_id
+select No from Students where Skills="Development"
+select SSN from Students where Skills="Development"
